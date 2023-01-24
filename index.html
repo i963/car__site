@@ -14,324 +14,194 @@
    
 </head>
 <body>
-<!-- HEADER -->
-
-<!-- класс хедер -->
-<header class="header">
-   <!-- класс контейнер -->
-   <div class="container">
-      <!-- класс оболочка для всего внутри хедер -->
-      <div class="header__wrapper">
-         <!-- класс внтуренний блок 1 для лого -->
-         <div class="header__block">
-            <!-- ссылка для навигации + класс лого
-            / в href - это перезагрузка стр. по клику ? 
-            # в href -  # внутри гиперссылки указывает идентификатор элемента html, которому нужно прокручивать окно -->
-            <a href="#" class="header__logo">
-               <!-- вставка картинки лого - для короткой записи ссылки не забывать указывать папку-->
-               <img src="img/logo.png" alt="Just image">
-            </a>
-         </div>
-         <!-- класс внутренний блок 2 для меню -->
-         <nav class="nav">
-            <!--ссылка + класс пункты меню--> 
-            <a href="#" class="nav__link active">Main</a>
-            <a href="#" class="nav__link">Our services</a>
-            <a href="#" class="nav__link">About</a>
-            <a href="#" class="nav__link">Contacts</a>
-         </nav>
-         <!-- класс внутренний блок 3 для языков -->
-         <div class="header__block">
-            <!-- класс языки -->
-         <div class="header__lang">
-            <!-- ссылка + класс тип языка -->
-            <a href="#" class="header__lang-link">Ukr</a>
-            <a href="#" class="header__lang-link active">Eng</a>
-         </div>
-         </div>
-      </div>
-   </div>
-</header>
-
-<!-- INTRO -->
-
-<!-- класс мейн секции -->
-<section class="intro">
-   <!-- класс контейнер для всего внутри (повторяется) -->
-   <div class="container">
-      <!-- класс интро для конкретной секции мейн -->
-      <div class="intro__content">
-         <!-- класс блок для зага и кнопки внутри -->
-            <div class="intro__block">
-               <h1 class="intro__title">KEEPING YOU ON THE ROAD WITH SERVICE YOU CAN TRUST
-               </h1>
-               <!-- ссылка + класс кнопка
-               т.к. кнопка повторяется в других разделах - название + стиль универсальные, если уникальные под каждый раздел - связывать с названием: intro__button например -->
-               <a href="#" class="button">Show more </a>
-            </div>
-      </div>
-   </div>
-</section>
-
-<!-- MAIN SECTIONS (INFO)-->
-
-<section class="info">
-   <div class="container">
-      <div class="info__wrapper">
-         <!-- INFO BLOCK 1 -->
-         <div class="info__block">
-            <div class="info__item">
-               <div class="info__img">
-                  <img src="img/icon1__phone.svg" alt="Just image">
-               </div>
-               <h3 class="info__title">
-                  CALL US NOW 222-222-222
-               </h3>
-               <p class="info__text">
-                  Feel free to call us
-               </p>
-            </div>
-         </div>
-                  <!-- INFO BLOCK 2 -->
-         <div class="info__block">
-            <div class="info__item">
-               <div class="info__img">
-                  <img src="img/icon2__calendar.svg" alt="Just image">
-               </div>
-               <h3 class="info__title">
-                  GET FREE APPOITMET
-               </h3>
-               <p class="info__text">
-                  Free Diagnosis & Brake Checks
-               </p>
-            </div>
-         </div>
-         <!-- INFO BLOCK 3 -->
-         <div class="info__block">
-            <div class="info__item">
-               <div class="info__img">
-                  <img src="img/icon3__maps-and-flags.svg" alt="Just image">
-               </div>
-               <h3 class="info__title">
-                  FIND US ON MAP
-               </h3>
-               <p class="info__text">
-                  New York, 1286 Ruumu Nanor
-               </p>
-            </div>
-         </div>         
-      </div>
-   </div>
-</section>
-
-<!--OUR SERVICES-->
-
-<section class="services">
-   <div class="container">
-      <h2 class="block__title">
-      OUR SERVICES
-      </h2>
-      <!--по умолчанию инлайн элемент, требует обязательного переопределения!!!-->
-      <a href="#" class="block__link">
-      VIEW ALL SERVICES
-      </a> 
-
-      <div class="services__wrapper">
-         <!-- 1 BLOCK -->
-         <div class="services__block">
-            <a href="#" class="services__item">
-               <div class="services__content" style="background-image:url('img/diagnostic__serv.png')">
-                  <div class="services__content-item">
-                     <div class="services__img">
-                        <img src="img/plus.svg" alt="Just image"> 
-                     </div>
-                     <p class="services__text">
-                     ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
-                     </p>
-                  </div>
-               </div>
-               <h3 class="services__title">
-               DIAGNOSTIC
-               </h3>
-            </a>
-         </div>
-         <!-- 2 BLOCK -->
-         <div class="services__block">
-            <a href="#" class="services__item">
-               <div class="services__content" style="background-image:url('img/tires__serv.png')">
-                  <div class="services__content-item">
-                     <div class="services__img">
-                        <img src="img/plus.svg" alt="Just image"> 
-                     </div>
-                     <p class="services__text">
-                     ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
-                     </p>
-                  </div>
-               </div>
-               <h3 class="services__title">
-               TIRES & WHEELS
-               </h3>
-            </a>
-         </div>
-         <!-- 3 BLOCK -->
-         <div class="services__block">
-            <a href="#" class="services__item">
-               <div class="services__content" style="background-image:url('img/engines__serv.png')">
-                  <div class="services__content-item">
-                     <div class="services__img">
-                        <img src="img/plus.svg" alt="Just image"> 
-                     </div>
-                     <p class="services__text">
-                     ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
-                     </p>
-                  </div>
-               </div>
-               <h3 class="services__title">
-               ENGINES
-               </h3>
-            </a>
-         </div>
-      </div>
-   </div>
-</section>
-
-<!-- ABOUT US -->
-
-<section class="about">
-   <div class="container">
-      <div class="about__wrapper">
-         <div class="about__block">
-            <h2 class="about__title">
-            WE UNDERSTAND HOW IMPORTANT IT IS TO FIND THE RIGHT AUTO SERVICE
-            </h2>
-            <p class="about__text">
-            Car repairs and maintenance can be expensive and no one wants to have pay to repair damage caused by shoddy repair service. When you bring your car into our auto shop, you won’t have to worry because our staff is comprised of ASE certified technicians who are committed to making sure you have a safe dependable car.
-            </p>
-            <a href="#" class="about__link">
-            MORE ABOUT US
-            </a>
-         </div>
-         <div class="about__img">
-         <img src="img/about__img.jpg" alt="Just img"> 
-         </div>
-      </div> 
-   </div>
-</section>
-
-<!-- FAST&EASY  --> 
-
-<section class="fast">
-   <div class="container">      
-      <h1 class="fast__main-title">
-         FAST & EASY
-      </h1>
-      <h2 class="fast__subtitle">
-         our work process
-      </h2>
-      <div class="fast__wrapper">
-         <div class="fast__block">
-            <div class="fast__item">
-               <!-- 1 BLOCK -->
-               <h3 class="fast__title">
-                  1.Request your quote
-               </h3>
-               <p class="fast__text">
-                  We will be there when you most need us
-               </p>
-            </div>
-         </div>
-         <div class="fast__block">
-            <div class="fast__item">              
-               <!-- 2 BLOCK -->               
-               <h3 class="fast__title">
-                  02. BRING YOUR VEHICLE
-               </h3>
-               <p class="fast__text">
-                  We are car guys at heart
-               </p> 
-            </div>
-         </div> 
-         <div class="fast__block">
-            <div class="fast__item">             
-               <!-- 3 BLOCK -->               
-               <h3 class="fast__title">
-                  03. GET IT REPAIRED
-               </h3>
-               <p class="fast__text">
-                  High quality, low cost car servicing
-               </p>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-
-<!-- CONTACTS -->
-<section class="contacts">
-   <div class="container">
-      <h2 class="contacts__title">
-         Contact us
-      </h2>
-      <form class="contacts__form" action="URL">
-         <div class="form__row">
-            <div class="form__group">
-               <input type="text" class="input" placeholder=" ">
-               <label for="name" class="label">Name</label>
-            </div>
-            <div class="form__group">
-               <input type="text" class="input" placeholder=" ">
-               <label for="last-name" class="label">Last name</label>
-            </div>
-         </div>
-            <div class="form__row">
-               <div class="form__group">
-                  <input type="email" class="input" placeholder=" ">
-                  <label for="email" class="label">E-mail</label>
-               </div>
-               <div class="form__group">
-                  <input type="tel" class="input" placeholder=" ">
-                  <label for="phone" class="label">Phone</label>
-               </div>
-            </div>
-            <div class="form__row">
-               <div class="form__group">
-                  <textarea class="textarea" placeholder=" " name=""></textarea>
-                  <label for="textarea" class="label">Message</label>
-               </div>
-            </div>
-         <button class="contacts__button" type="submit">Send</button>
-      </form>
-   </div>
-</section>
-
-<!-- FOOTER -->
-<footer class="footer">
-   <div class="container">
-      <div class="footer__wrapper">
-         <p class="copyright">© 2021 Auto theme by Frontend Tricks
-         </p>         
-         <div class="footer__sm-block">            
-            <a href="https://linkedin.com" target="_blank" class="footer__link">
-                  <img src="img/linkedin.png" alt="Just image">
-            </a>          
-            <a href="https://facebook.com" target="_blank" class="footer__link">
-               <img src="img/facebook.svg" alt="Just image">
-            </a>             
-            <a href="https://instagram.com" target="_blank" class="footer__link">
-               <img src="img/instagram.svg" alt="Just image">
-            </a>             
-         </div>
-      </div>
-   </div>
-</footer>
-
-
-
-
-
-
-
-
+<div class="container">
+	<header class="header">
+		<div class="header__wrapper">
+			<div class="header__logo">
+				<img src="img/logo.png" alt="Logo"></a>
+			</div>
+			<div class="header__menu">
+				<div class="menu__burger"><span></span></div>
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li class="menu__item"><a class="menu__link" href="#">Main</a></li>
+						<li class="menu__item"><a class="menu__link" href="#services" target="_blank">Our services</a></li>
+						<li class="menu__item"><a class="menu__link" href="#about" target="_blank">About</a></li>
+						<li class="menu__item"><a class="menu__link" href="#contact" target="_blank">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header__lang">
+				<a href="#" class="lang__link">ENG</a>
+				<a href="#" class="lang__link">FR</a>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<section class="intro">
+			<div class="intro__wrapper">
+				<div class="intro__content">
+					<div class="intro__title"><h1>KEEPING YOU ON THE ROAD WITH SERVICE YOU CAN TRUST</h1></div>
+					<button class="button"><a href="#"><span>Show more</spa></a></button>
+				</div>
+				<div class="intro__contact">
+					<div class="contact__item">
+						<div class="info__img"><img src="img/icon1__phone.svg" alt="Just image"></div>
+						<div class="info__title"><h3>CALL US NOW 222-222-222</h3></div>
+						<div class="info__text">Feel free to call us</div>
+					</div>
+					<div class="contact__item">
+						<div class="info__img"><img src="img/icon2__calendar.svg" alt="Just image"></div>
+						<div class="info__title"><h3>GET FREE APPOINTMENT</h3></div>
+						<div class="info__text">Free Diagnosis & Brake Checks
+						</div>
+					</div>
+					<div class="contact__item">
+						<div class="info__img"><img src="img/icon3__maps-and-flags.svg" alt="Just image"></div>
+						<div class="info__title"><h3>FIND US ON MAP</h3></div>
+						<div class="info__text">New York, 1286 Ruumu Nanor</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="serv__link" class="services">
+			<div class="services__wrapper">
+				<div class="services__text">
+					<div class="services__main-title"><h3>OUR SERVICES</h3></div>
+					<a href="#" class="services__main-link">View all services</a> 
+				</div>
+				<div class="services__options">
+					<div class="services__block">
+						<a href="#" class="services__item">
+							<div class="services__content">
+								<img src="img/diagnostic__serv.png" alt="Just image">
+								<div class="content__wrap">
+									<div class="wrap__icon"><img src="img/plus.svg" alt="Just image"> 
+									</div>
+									<div class="wrap__text"><p>ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH</p></div>
+								</div>
+							</div>
+							<div class="services__title"><h3>DIAGNOSTIC</h3></div>
+						</a>
+					</div>
+					<div class="services__block">
+						<a href="#" class="services__item">
+							<div class="services__content">
+								<img src="img/tires__serv.png" alt="Just image">
+								<div class="content__wrap">
+									<div class="wrap__icon"><img src="img/plus.svg" alt="Just image"> 
+									</div>
+									<div class="wrap__text"><p>ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH</p></div>
+								</div>
+							</div>
+							<div class="services__title"><h3>TIRES & WHEELS</h3></div>
+						</a>
+					</div>
+					<div class="services__block">
+						<a href="#" class="services__item">
+							<div class="services__content">
+								<img src="img/engines__serv.png" alt="Just image">
+								<div class="content__wrap">
+									<div class="wrap__icon"><img src="img/plus.svg" alt="Just image"> 
+									</div>
+									<div class="wrap__text"><p>ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH</p></div>
+								</div>
+							</div>
+							<div class="services__title"><h3>ENGINES</h3></div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="about__link" class="about">
+			<div class="about__wrapper">
+				<div class="about-block content-block">
+					<div class="block__title"><h3>WE UNDERSTAND HOW IMPORTANT IT IS TO FIND THE RIGHT AUTO SERVICE</h3	></div>
+					<div class="block__text">
+					<p>Car repairs and maintenance can be expensive and no one wants to have pay to repair damage caused by shoddy repair service. When you bring your car into our auto shop, you won’t have to worry because our staff is comprised of ASE certified technicians who are committed to making sure you have a safe dependable car.</p>
+					</div>
+					<a href="#" class="block__link">MORE ABOUT US</a>
+				</div>
+				<div class="about__block media-block">
+					<div class="block__image"><img src="img/about__img.jpg" alt="Just image"> </div>
+				</div>
+			</div> 
+		</section>
+		<section class="fast">
+			<div class="fast__wrapper">      
+				<div class="fast__title"><h2>FAST & EASY</h2></div>
+				<div class="fast__subtitle">Our work process</div>
+				<div class="work-process__block">
+					<div class="block__item">
+						<h3 class="item__title">1. Request your quote</h3>
+						<p class="item__text">We will be there when you most need us</p>
+					</div>
+					<div class="block__item">              
+						<h3 class="item__title">2. BRING YOUR VEHICLE</h3>
+						<p class="item__text">We are car guys at heart</p> 
+					</div>
+					<div class="block__item">             
+						<h3 class="item__title">3. GET IT REPAIRED</h3>
+						<p class="item__text">High quality, low cost car servicing</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contact">
+			<div class="contact__wrapper">
+				<div class="contact__title"><h3>Contact us</h3></div>
+				<form class="contact__form" action="#">
+					<div class="form__row">
+						<div class="form__group">
+							<input type="text" name="name" class="input __req" placeholder=" ">
+							<label for="name" class="label">Name</label>
+						</div>
+						<div class="form__group">
+							<input type="text" name="last name" class="input __req" placeholder=" ">
+							<label for="last-name" class="label">Last name</label>
+						</div>
+					</div>
+					<div class="form__row">
+						<div class="form__group">
+							<input type="email" name="email" class="input __req __email" placeholder=" ">
+							<label for="email" class="label">E-mail</label>
+						</div>
+						<div class="form__group">
+							<input type="tel" name="phone" class="input __req" placeholder=" ">
+							<label for="phone" class="label">Phone</label>
+						</div>
+					</div>
+					<div class="form__row">
+						<div class="form__group">
+							<textarea class="textarea __req" name="message" placeholder="" ></textarea>
+							<label for="textarea" class="label">Message</label>
+						</div>
+					</div>
+					<div class="form__row">
+						<div class="form__group">
+						<div class="checkbox">
+							<input id="fromAgreement" checked type="checkbox" name="agreement" class="checkbox__input ___req">
+							<label for="fromAgreement" class="checkbox__label"><p>I hereby acknowledge and agree to the processing of personal data in accordance with the <a href="#"><span>terms</span></a>*</p></label>
+						</div>
+						</div>
+					</div>
+					<input class="button form-button" type="submit" value="Send">
+				</form>
+			</div>
+		</section>
+	</main>
+	<footer id="contact" class="footer">
+		<div class="footer__wrapper">
+			<div class="footer__copyright"><p>© 2021 Auto theme by Frontend Tricks</p></div>         
+			<div class="footer__social-media">
+				<a href="https://linkedin.com" target="_blank" class="footer__link"><img src="img/linkedin.png" alt="Just image"></a>          
+				<a href="https://facebook.com" target="_blank" class="footer__link"><img src="img/facebook.svg" alt="Just image"></a>             
+				<a href="https://instagram.com" target="_blank" class="footer__link"><img src="img/instagram.svg" alt="Just image"></a>             
+			</div>
+		</div>
+	</footer>
+</div>
+<script src="js/script.js"></script>
 
 </body>
 </html>
