@@ -118,6 +118,7 @@ transition: left 0.3s ease 0s;
 margin: -110px 0 0 0;
 background: url(../img/intro__road.jpg);
 background-size: cover;
+overflow: auto;
 }
 .menu__list{
 flex-direction: column;
